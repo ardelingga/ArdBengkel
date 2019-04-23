@@ -107,6 +107,7 @@ public class LoginActivity extends Activity {
                             Snackbar.make(rootLayout, "Please Enter Phone Number", Snackbar.LENGTH_SHORT).show();
                             return;
                         }
+                        //makan
 
                         if (TextUtils.isEmpty(edtPassword.getText().toString())) {
                             Snackbar.make(rootLayout, "Please Enter Password", Snackbar.LENGTH_SHORT).show();
