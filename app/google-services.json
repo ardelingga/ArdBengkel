@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "465022941286",
+    "firebase_url": "https://ardbengkel-3cf33.firebaseio.com",
+    "project_id": "ardbengkel-3cf33",
+    "storage_bucket": "ardbengkel-3cf33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465022941286:android:3cc3b03da401b0f6",
+        "android_client_info": {
+          "package_name": "ardelinggapramestakusuma.ezyro.com.ardbengkel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465022941286-g0mu7ud71tj19lad34alu0fmfk9pikuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPGI1P9qRZrEWmdQ8irnBX60lIsv_cX2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465022941286-g0mu7ud71tj19lad34alu0fmfk9pikuk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
