@@ -1,25 +1,16 @@
 package ardelinggapramestakusuma.ezyro.com.ardbengkel.Model;
 
 public class User {
-    private String nama,email,password,no_telp,alamat;
+    private String email, password, nama, noTelp;
 
     public User() {
     }
 
-    public User(String nama, String email, String password, String no_telp, String alamat) {
-        this.nama = nama;
+    public User(String email, String password, String nama, String noTelp) {
         this.email = email;
         this.password = password;
-        this.no_telp = no_telp;
-        this.alamat = alamat;
-    }
-
-    public String getNama() {
-        return nama;
-    }
-
-    public void setNama(String nama) {
         this.nama = nama;
+        this.noTelp = noTelp;
     }
 
     public String getEmail() {
@@ -38,19 +29,19 @@ public class User {
         this.password = password;
     }
 
-    public String getNo_telp() {
-        return no_telp;
+    public String getNama() {
+        return nama;
     }
 
-    public void setNo_telp(String no_telp) {
-        this.no_telp = no_telp;
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 
-    public String getAlamat() {
-        return alamat;
+    public String getNoTelp() {
+        return noTelp;
     }
 
-    public void setAlamat(String alamat) {
-        this.alamat = alamat;
+    public void setNoTelp(String noTelp) {
+        this.noTelp = noTelp;
     }
 }

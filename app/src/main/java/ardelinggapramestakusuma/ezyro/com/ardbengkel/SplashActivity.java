@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import ardelinggapramestakusuma.ezyro.com.ardbengkel.LoginAndRegister.LoginAndRegisterActivity;
+
 public class SplashActivity extends Activity {
 
     @Override
@@ -19,7 +21,7 @@ public class SplashActivity extends Activity {
                 } catch (InterruptedException e){
                     e.printStackTrace();
                 } finally {
-                    startActivity(new Intent(SplashActivity.this, Register.class));
+                    startActivity(new Intent(SplashActivity.this, Home.class));
                     finish();
                 }
             }

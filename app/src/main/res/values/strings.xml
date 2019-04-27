@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ArdBengkel</string>
+    <string name="title_activity_maps_sepeda">Map</string>
 </resources>

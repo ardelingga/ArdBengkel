@@ -14,7 +14,7 @@
         android:layout_height="wrap_content">
 
         <com.rengwuxian.materialedittext.MaterialEditText
-            android:id="@+id/edtEmail"
+            android:id="@+id/edtEmailRegister"
             android:hint="Email"
             android:text=""
             android:textColor="@color/colorPrimary"
@@ -31,12 +31,46 @@
             />
 
         <com.rengwuxian.materialedittext.MaterialEditText
-            android:id="@+id/edtPassword"
+            android:id="@+id/edtPasswordRegister"
             android:hint="Password"
             android:text=""
             android:textColor="@color/colorPrimary"
             android:textColorHint="@color/colorPrimary"
             android:inputType="textPassword"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtNamaRegister"
+            android:hint="Nama"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtNoTelpRegister"
+            android:hint="No Telepon"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="phone"
             android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
