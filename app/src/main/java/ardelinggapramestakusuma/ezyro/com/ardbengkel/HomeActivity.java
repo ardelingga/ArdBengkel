@@ -3,13 +3,12 @@ package ardelinggapramestakusuma.ezyro.com.ardbengkel;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatDelegate;
 import android.view.View;
 import android.widget.Button;
 
 import ardelinggapramestakusuma.ezyro.com.ardbengkel.LoginAndRegister.LoginAndRegisterActivity;
 
-public class Home extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
     private Button btnSepeda, btnMotor, btnMobil;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +19,7 @@ public class Home extends AppCompatActivity {
         btnSepeda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this, LoginAndRegisterActivity.class);
+                Intent intent = new Intent(HomeActivity.this, LoginAndRegisterActivity.class);
                 startActivity(intent);
                 finish();
             }

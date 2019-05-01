@@ -8,14 +8,18 @@
     <color name="black">#0F0F0F</color>
     <color name="login">#2196F3</color>
     <color name="utama">#008080</color>
+    <color name="utama2">#FF5555</color>
     <color name="bottonText">#6b6b76</color>
     <color name="rippleEffectColor">#f816a463</color>
     <color name="btnSigIn">#03A9F4</color>
     <color name="btnRegister">#83838c</color>
-
-
+    <color name="gray">#CFCFCF</color>
 
     <color name="lingkaran_sepeda">#ff9340</color>
     <color name="lingkaran_motor">#2196F3</color>
     <color name="lingkaran_mobil">#A55CB1</color>
+
+    <color name="baseReleaseColor">#212121</color>
+    <color name="basePressColor">#FAFAFA</color>
+    <color name="ballReleaseColor">#9E9E9E</color>
 </resources>

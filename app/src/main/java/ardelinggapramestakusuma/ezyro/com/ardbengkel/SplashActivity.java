@@ -2,7 +2,6 @@ package ardelinggapramestakusuma.ezyro.com.ardbengkel;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import ardelinggapramestakusuma.ezyro.com.ardbengkel.LoginAndRegister.LoginAndRegisterActivity;
@@ -21,7 +20,7 @@ public class SplashActivity extends Activity {
                 } catch (InterruptedException e){
                     e.printStackTrace();
                 } finally {
-                    startActivity(new Intent(SplashActivity.this, Home.class));
+                    startActivity(new Intent(SplashActivity.this, LoginAndRegisterActivity.class));
                     finish();
                 }
             }

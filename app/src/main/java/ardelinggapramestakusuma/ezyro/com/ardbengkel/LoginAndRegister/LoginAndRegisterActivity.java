@@ -23,7 +23,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
-import ardelinggapramestakusuma.ezyro.com.ardbengkel.Home;
+import ardelinggapramestakusuma.ezyro.com.ardbengkel.HomeActivity;
 import ardelinggapramestakusuma.ezyro.com.ardbengkel.Model.User;
 import ardelinggapramestakusuma.ezyro.com.ardbengkel.R;
 import dmax.dialog.SpotsDialog;
@@ -116,7 +116,7 @@ public class LoginAndRegisterActivity extends Activity {
                             @Override
                             public void onSuccess(AuthResult authResult) {
                                 waitingDialog.dismiss();
-                                startActivity(new Intent(LoginAndRegisterActivity.this, Home.class));
+                                startActivity(new Intent(LoginAndRegisterActivity.this, HomeActivity.class));
                                 finish();
                             }
                         }).addOnFailureListener(new OnFailureListener() {
